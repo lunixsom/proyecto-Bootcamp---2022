@@ -34,11 +34,13 @@
 
 .nav-bar{
     background-color: mediumaquamarine;
+    height:80px;
 
     &__nav-list{
         display: flex;
         list-style-type: none;
         justify-content: center;
+        align-items: center;
 
         @media (max-width: 768px){
             & {
@@ -48,8 +50,9 @@
     }
 
     &__nav-item {
-        text-align: center;
+        /* text-align: center; */
         background-color: pink;
+        height: auto;
     }
 
     &__nav-link {
