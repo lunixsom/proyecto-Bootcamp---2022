@@ -31,6 +31,7 @@
 
 .nav-bar{
     background-color: mediumaquamarine;
+    height: 80px;
 
     &__nav-list{
         display: flex;
@@ -47,6 +48,7 @@
     &__nav-item {
         text-align: center;
         background-color: pink;
+        align-items: center;
     }
 
     &__nav-link {
@@ -55,6 +57,7 @@
         color: #fff;
         padding: 1em 2em;
         text-decoration: none;
+        height: 80px;
     }
 
     @media (max-width: 768px){
