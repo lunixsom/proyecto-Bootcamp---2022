@@ -84,8 +84,12 @@
     }
 
     &__logo-container{
-        background-color: yellow;
+        background-image: url('/img/LOGO.jpg');
+        background-size: cover;
+        background-position: center;
+        /* background-color: yellow; */
         position: absolute;
+        z-index: 2;
     }
 
     &__form-container{
