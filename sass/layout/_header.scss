@@ -34,11 +34,7 @@
 
 .nav-bar{
     background-color: mediumaquamarine;
-<<<<<<< HEAD
-    height:80px;
-=======
-    height: 80px;
->>>>>>> cb80b6dd9c824b07d535e877e40243fd50cc7211
+
 
     &__nav-list{
         display: flex;
@@ -56,13 +52,7 @@
     &__nav-item {
         /* text-align: center; */
         background-color: pink;
-<<<<<<< HEAD
-        height: auto;
-=======
-        align-items: center;
->>>>>>> cb80b6dd9c824b07d535e877e40243fd50cc7211
     }
-
     &__nav-link {
         display: block;
         background-color: purple;
@@ -101,7 +91,6 @@
     &__form-container{
         display: none;
         background-color: gold;
-        //display: flex;
         flex-basis: 100%;
         justify-content: center;
     }
