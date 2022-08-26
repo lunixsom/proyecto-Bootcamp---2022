@@ -40,6 +40,7 @@
         display: flex;
         list-style-type: none;
         justify-content: center;
+        align-items: center;
 
         @media (max-width: 768px){
             & {
@@ -58,7 +59,7 @@
         display: block;
         background-color: purple;
         color: #fff;
-        padding: .5em 2em;
+        padding: 2em;
         text-decoration: none;
         height: 80px;
     }
@@ -81,7 +82,7 @@
     justify-content: space-between;
 
     &__logo-container, &__form-container{
-        padding: 1em;
+        padding: 1.8em;
     }
 
     &__logo-container{
