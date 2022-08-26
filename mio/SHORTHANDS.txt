@@ -1,0 +1,11 @@
+PADDING: 
+	
+	TOP&RIGHT&BOTTOM&LEFT
+	TOP RIGHT BOTTOM LEFT 
+	TOP right&left BOTTOM
+	top&bottom right&left
+	
+	
+
+
+
