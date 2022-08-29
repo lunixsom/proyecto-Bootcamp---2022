@@ -41,6 +41,7 @@
         list-style-type: none;
         justify-content: center;
         align-items: center;
+        background-color: black;
 
         @media (max-width: 768px){
             & {
@@ -50,12 +51,11 @@
     }
 
     &__nav-item {
-        /* text-align: center; */
         background-color: pink;
     }
     &__nav-link {
         display: block;
-        background-color: purple;
+        background-color: black;
         color: #fff;
         padding: 2em;
         text-decoration: none;
@@ -89,7 +89,6 @@
         background-position: center;
         position: absolute;
         padding:2.5em;
-        /* z-index: 2; */
     }
 
     &__form-container{
