@@ -79,17 +79,17 @@
     //display: flex;
     justify-content: space-between;
 
-    &__logo-container, &__form-container{
+    &__form-container{
         padding: 1.8em;
     }
 
     &__logo-container{
         background-image: url('/img/LOGO.jpg');
-        background-size: cover;
+        background-size:contain;
         background-position: center;
-        /* background-color: yellow; */
         position: absolute;
-        z-index: 2;
+        padding:2.5em;
+        /* z-index: 2; */
     }
 
     &__form-container{
