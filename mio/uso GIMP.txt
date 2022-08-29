@@ -1,0 +1,6 @@
+Reducir tamaño de imagen:
+
+- Arrastro la imagen a GIMP
+- Vas a menu -> Scale Image y bajas el width
+- dar a boton Scale
+- export as -> guardar en jpg -> Export

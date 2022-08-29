@@ -113,10 +113,14 @@
     }
 
     &__carrito-container{
+        background-image: url('/img/cart-shopping-solid.svg');
+        background-size:cover;
+        background-position: center;
         position: absolute;
+        background-color: white;
         right: 0;
         flex: 0 0 3em;
-        background-color: goldenrod;
+        padding: 1em;
     }
 }
 
