@@ -1,0 +1,14 @@
+.bg-primary, #contact {
+    background-color: #448;
+  }
+
+  #contact {
+    margin: 0.5rem auto;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+  }

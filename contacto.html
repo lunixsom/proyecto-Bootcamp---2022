@@ -9,8 +9,59 @@
     <title>Contacto</title>
 </head>
 <body>
-    <h1>Contacto</h1>
-
+    <h1>Contactanos</h1>
+    
+    <form id="contact" action="" method="POST">
+        <label for="contactName">Ingrese su Nombre Completo</label>
+        <input  
+            id="contactName" 
+            name="contactName" 
+            type="text"
+            maxlength="50" 
+            pattern="[a-z A-Z]{3,50}" 
+            placeholder="Nombre (*): Emanuel Some" 
+            required/>
+        <div class="valid">
+            Ingrese su nombre solamente con letras y espacios.
+            El mismo debera contar con al menos 3 caracteres
+            y un maximo de 50 caracteres
+        </div>
+        <label for="contactEmail">Ingrese su Correo Electronico</label>
+        <input  
+            id="contactEmail" 
+            name="contactEmail" 
+            type="email"
+            minlength="8"
+            placeholder="Correo(*): emanuelsome@hotmail.com"  
+            required/>
+        <div class="valid">
+            Ingrese una dirección de correo valida que respete 
+            el siguiente formato "usuario@servidor".
+            La misma debe contar con al menos 8 caracteres
+        </div>
+        <label for="contactPhone">Ingrese su Numero de Telefono</label>
+        <input 
+            id="contactPhone" 
+            name="contactPhone" 
+            type="tel"
+            pattern="[0-9]{6.20} || [\()]\d{2,6}[\)]\d{3,6}[\-]\d{3,6}" 
+            placeholder="Telefono(*): (5411)3557-4888" 
+            required/>
+        <div class="valid">
+            Ingrese su numero telefonico como figura en el 
+            ejemplo: (5411)3557-4888. Puede insertar un guion 
+            cada 3 a 6 digitos.
+        </div>
+        <label for="contactConsult">"Ingrese su Consulta"</label>
+        <textarea 
+            name="contactConsult" 
+            id="contactConsult" 
+            minlength="10" 
+            maxlength="200" 
+            placeholder="Consulta (*): Buenos dias, necesito un presupuesto" 
+            required></textarea>
+        <button class="btn">Enviar</button>
+    </form>
     <script src="js/main.js"></script>
 </body>
 </html>
