@@ -62,7 +62,9 @@
     }
 
     &__nav-link:hover{
-        color: yellow;
+        color: black;
+        background-color: lightblue;
+        font-weight: bold;
     }
 
     @media (max-width: 768px){
