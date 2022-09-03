@@ -1,0 +1,6 @@
+
+Crear una nueva rama desde un COMMIT anterior
+
+git checkout codigoCommit
+
+git switch -c <new-branch-name>
