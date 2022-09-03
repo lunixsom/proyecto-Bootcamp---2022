@@ -1,0 +1,12 @@
+.contenedor-img{
+    display: flex;
+    height: 20em;
+    background-color: yellow;
+    align-items: center;
+    justify-content: center;
+
+    &__titulo{
+        font-size: xx-large;
+        font-weight: bolder;
+    }
+}
