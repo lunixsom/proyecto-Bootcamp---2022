@@ -1,1 +1,9 @@
-{"version":3,"sources":["../sass/pages/contacto.scss","contacto.css"],"names":[],"mappings":"AAAA;EACI,0DAAA;EACA,kCAAA;ACCJ","file":"contacto.css"}
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,aAAa,CAAA;EACT,gBAAgB,EAAE,wCAAwC;EAC1D,mBAAmB,EAAE,aAAa;CACrC",
+    "sources": [
+        "../sass/pages/contacto.scss"
+    ],
+    "names": [],
+    "file": "contacto.css"
+}
